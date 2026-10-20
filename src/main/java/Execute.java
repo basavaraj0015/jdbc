@@ -11,7 +11,7 @@ public class Execute {
         try {
             Connection connection = DriverManager.getConnection(url, userName, password);
             Statement statement = connection.createStatement();
-            String sql = "update students set age = 99 where id = 1 ";
+            String sql = "SELECT * FROM students";
             boolean status = statement.execute(sql);
             if (status) {
                 ResultSet resultSet = statement.getResultSet();
