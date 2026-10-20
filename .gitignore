@@ -13,9 +13,11 @@ target/
 *.iml
 *.ipr
 
+.idea
+
 # Environment variables and secrets
 .env
-xuhxec-rivry0-biSbav
+
 
 ### Eclipse ###
 .apt_generated
