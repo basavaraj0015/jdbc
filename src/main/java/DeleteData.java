@@ -12,7 +12,7 @@ public class DeleteData {
         try {
             Connection connection = DriverManager.getConnection(url,userName,password);
             Statement statement = connection.createStatement();
-            String deleteQuery = "DELETE FROM students where id = 2";
+            String deleteQuery = "DELETE FROM students where id = 7";
             String selectQuery = "SELECT * FROM students";
             int rowsAffected = statement.executeUpdate(deleteQuery);
             if (rowsAffected>0){
